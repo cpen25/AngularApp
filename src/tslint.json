@@ -11,7 +11,9 @@
             true,
             "element",
             "app",
-            "kebab-case"
+            "kebab-case",
+            "class",
+            "attribute"
         ]
     }
 }
