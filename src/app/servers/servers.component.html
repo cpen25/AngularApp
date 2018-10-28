@@ -10,6 +10,8 @@
   [disabled]="!allNewServer"
   (click)="onCreateServer()">Add Server</button>
 <!--<p> {{allNewServer}} </p>-->
-<p> {{serverCreationStatus}} </p>
+<!--<p> {{serverCreationStatus}} </p>-->
+  <p *ngIf="serverCreated"> Server was created, server name is {{serverName}}</p>
+
 
 
